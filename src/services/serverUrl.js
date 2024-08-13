@@ -1,3 +1,3 @@
-const SERVER_URL = "https://taskmanagement2-e5h2.onrender.com"
+const SERVER_URL = "http://localhost:3000"
 
 export default SERVER_URL
