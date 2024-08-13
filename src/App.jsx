@@ -14,7 +14,7 @@ function App() {
         <Route path='/login' element={<Auth />}></Route>
         <Route path='/register' element={<Auth insideRegister />}></Route>
         <Route path='/dashboard' element={<Dashboard />}></Route>
-        <Route path='/*' element={<Navigate to={'/'}/>}></Route>
+        {/* <Route path='/*' element={<Navigate to={'/'}/>}></Route> */}
 
       </Routes>
     </>

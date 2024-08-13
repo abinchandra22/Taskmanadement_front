@@ -37,7 +37,7 @@ function Dashboard() {
   console.log(allProject);
   useEffect(() => {
     getAllProject()
-  }, [allProject])
+  }, [])
 
   // delete
   const handleDeleteProject = async (prijectId) => {
